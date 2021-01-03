@@ -35,5 +35,9 @@ module.exports = {
                 { from: path.resolve(__dirname, 'index.html') },
             ]
         }),
-    ]
+    ],
+
+    resolve: {
+        extensions: ['.ts', '.js']
+    }
 };
